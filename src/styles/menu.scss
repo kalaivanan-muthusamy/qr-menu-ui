@@ -1,0 +1,49 @@
+.menu-content {
+  width: 100%;
+  background: #fff;
+  min-height: 100vh;
+
+  .menu-header {
+    padding: 20px 0;
+    background: #007bff;
+    color: #fff;
+  }
+  .menu-body {
+    padding: 0 20px;
+  }
+
+  .category-name {
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--blue);
+    font-weight: 600;
+  }
+
+  .food-items {
+    .title {
+      font-weight: 400;
+    }
+    .price {
+      font-weight: 300;
+    }
+    .quantity-toolbar {
+      display: flex;
+      align-items: center;
+
+      ion-icon {
+        font-size: 24px;
+        color: var(--gray);
+      }
+
+      ion-icon:nth-of-child(2) {
+        font-size: 28px;
+        color: var(--success);
+      }
+
+      span {
+        font-size: 16px;
+        margin: 0 10px;
+      }
+    }
+  }
+}

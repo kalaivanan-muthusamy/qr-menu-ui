@@ -1,0 +1,45 @@
+// BRANDING
+.logo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 35px;
+  }
+  h1 {
+    display: inline;
+    font-weight: 700;
+    padding-left: 10px;
+    margin: 0;
+  }
+
+  &.logo-white {
+    h1 {
+      color: #fff;
+    }
+  }
+}
+
+// TOASTR
+#toast-container > div {
+  opacity: 1 !important;
+}
+
+// FORM CONTROL - CHECKBOX
+.checkbox span {
+  margin-right: 0.75rem;
+}
+
+// Bootstrap Dropdown
+.dropdown-menu.show {
+  width: 100% !important;
+}
+
+// Bootstrap Container
+.container-fluid {
+  padding: 0;
+  overflow: hidden;
+}
+
+@import "alert.css";
+@import "menu.scss";
